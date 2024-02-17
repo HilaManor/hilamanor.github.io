@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Hila Manor">
+  <meta name="description" content="Hila Manor's personal website">
+  <meta name="keywords" content="Deep Learning,Machine Learning,Hila Manor,Technion,Audio Generation,Uncertainty Visualization,Generative Models">
+  <title>Hila Manor</title>
+  
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons8-halo-color-glass-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+ 
+    
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  
+  <div id="main" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" >
+	<!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light shadow poppins-medium" id="navbar">
+        <div class="container-xl">
+            <a class="navbar-brand" href="#main">Hila Manor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                <span class="navbar-toggler-icon">
+                    <!-- <i class="fa-duotone fa-bars"></i> -->
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item p-home"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item p-publications"><a class="nav-link" href="#publications">Publications</a></li>
+                    <!-- <li class="nav-item p-projects"><a class="nav-link" href="#projects">Projects</a></li> -->
+                    <li class="nav-item p-teaching"><a class="nav-link" href="#teaching">Teaching</a></li>
+                </ul>
+            </div> 
+        </div> 
+    </nav>
+
+    <!-- Home Section -->
+
+    <div id="home" class="bg-light section anchor" style="padding-top:20px"> 
+        <div class="container-md" style="max-width:900px">
+            <!-- Image on left and text on right -->
+            <div class="row">
+                <div class="col-md-4" style="display: flex; align-items: center;">
+                    <img src="assets/hila.jpeg" class="img-fluid img-thumbnail rounded-circle" alt="Hila Manor">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="display-4">Hila Manor</h1>
+                    <!-- <p class="lead">PhD Student at the Technion </p> -->
+                    <p>I am a PhD student at the <a href="https://ece.technion.ac.il/" target="_blank">Electrical and Computer Engineering department</a>
+                        of the <a href="https://www.technion.ac.il/en/home-2/" target="_blank">Technion</a>, 
+                        under the supervission of <a href="https://tomer.net.technion.ac.il/" target="_blank"> Prof. Tomer Mihcaeli</a>.</p>
+                    <p>I received my BSc (Summa Cum Laude) in Electrical and Computer Engineering at the Technion as well.</p>
+                    <p>My research interests lie in the field of deep learning, with a focus on generative models.
+                        I am particularly interested in exploring their applications, interpretability, and reliability.</p> 
+                    <p>You can contant me at <code>hila dot manor at campus dot technion dot ac dot il</code>.</p>
+                    <p class="text-center">
+                        <a href="https://github.com/HilaManor/"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                        &nbsp;
+                        <a href="https://scholar.google.com/citations?user=Pz32vm4AAAAJ&hl=en"><i class="ai ai-google-scholar ai-2x " aria-hidden="true"></i></a>
+                        &nbsp;
+                        <a href="https://www.linkedin.com/in/hilamanor/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                        &nbsp;
+                        <a href="https://twitter.com/hila8manor/"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- In the text dont forget links with cute icons -->
+        </div>
+    </div>
+   
+    <!-- Publications Section -->
+    <div id="publications" class="bg-gray section anchor">
+        <div class="subtlecircle sectiondivider faicon">
+            <span class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-file-text fa-stack-1x p-publications"></i>
+            </span>
+        </div>
+        <h5 class="scetion-title text-center p-publications poppins-medium">Publications</h5>
+  
+        <div class="container-md">
+            <div class="card mb-3 shadow">
+                <div class="card-body">
+                    <div class="row open-sans-300">
+                        <div class="col"><h5 class="card-title">Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion</h5></div>
+                        <div class="col-auto">
+                            <a href="https://hilamanor.github.io/AudioEditing/"><i class="fa fa-external-link fa-lg" aria-hidden="true"></i></a>
+                            &nbsp;
+                            <a href="https://github.com/HilaManor/AudioEditingCode/"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <h6 class="card-subtitle mb-2 text-muted"><b>Hila Manor</b>, <a href="https://tomer.net.technion.ac.il/" target="_blank" class="text-muted">Tomer Michaeli</a></h6>
+                    <p class="card-text">
+                        We presents two methods for zero-shot editing of audio signals using pre-trained diffusion models, for both general audio and music signals.
+                        The first method uses text guidance to modify the signal according to a desired text prompt.
+                        The second method involves discovering semantically meaningful editing directions in the noise space of the diffusion model in an unsupervised manner,
+                        based on our <a href="#GaussianDenoisingPosterior">previous work</a>.
+                    </p>
+                </div>
+                <img src="assets/zeroshotaudioediting.png" class="card-img-bottom" style="padding-left: 7rem; padding-right: 7rem;" alt="">
+            </div>
+
+            
+            <div class="card mb-3 shadow anchor" id="GaussianDenoisingPosterior">
+                <div class="card-body">
+                    <div class="row open-sans-300">
+                        <div class="col"><h5 class="card-title">On the Posterior Distribution in Denoising: Application to Uncertainty Quantification</h5></div>
+                        <div class="col-auto">
+                            <a href="https://hilamanor.github.io/GaussianDenoisingPosterior/"><i class="fa fa-external-link fa-lg" aria-hidden="true"></i></a>
+                            &nbsp;
+                            <a href="https://github.com/HilaManor/GaussianDenoisingPosterior/"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+                            &nbsp;
+                            <span class="badge bg-primary">ICLR 2024</span>
+                        </div>
+                    </div>
+                    <h6 class="card-subtitle mb-2 text-muted"><b>Hila Manor</b>, <a href="https://tomer.net.technion.ac.il/" target="_blank" class="text-muted">Tomer Michaeli</a></h6>
+                    <p class="card-text">
+                        We presents a novel method for estimating and visualizing the uncertainty in image denoising tasks, using only a pre-trained denoiser and its derivatives.
+                        We first derive a relation between the higher-order posterior moments and the higher-order derivatives of the posterior mean, which is the output of the denoiser.
+                        Then we use this relation to efficiently compute the principal components of the posterior covariance,
+                        as well as to approximate the full marginal posterior distribution along any 1D direction.
+                        Our method reveals meaningful semantic variations and likelihoods of the possible reconstructions, in a variety of domains and denoiser architectures.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="assets/GaussianPosteriorDenoising_tiger.gif" width="100%" style="border-bottom-left-radius:var(--bs-card-inner-border-radius);" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="assets/GaussianPosteriorDenoising_mice.gif"  width="100%" style="border-bottom-right-radius:var(--bs-card-inner-border-radius);" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3 shadow">
+                <div class="card-body">
+                    <div class="row open-sans-300">
+                        <div class="col"><h5 class="card-title">From Posterior Sampling to Meaningful Diversity in Image Restoration</h5></div>
+                        <div class="col-auto">
+                            <a href="https://noa-cohen.github.io/MeaningfulDiversityInIR/"><i class="fa fa-external-link fa-lg" aria-hidden="true"></i></a>
+                            &nbsp;
+                            <span class="badge bg-primary">ICLR 2024</span>
+                        </div>
+                    </div>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        <a href="https://www.linkedin.com/in/noa-cohen1/" target="_blank" class="text-muted">Noa Cohen</a>, <b>Hila Manor</b>, 
+                        <a href="https://www.linkedin.com/in/yuvalbahat/" target="_blank" class="text-muted">Yuval Bahat</a>, 
+                        <a href="https://tomer.net.technion.ac.il/" target="_blank" class="text-muted">Tomer Michaeli</a></h6>
+                    <p class="card-text">
+                        We observe that current image restoration algorithms do not fully capture the diversity of plausible solutions.
+                        Following that, we initiate the study of meaningful diversity in image restoration.
+                        We explore several post-processing approaches for uncovering semantic diversity in image restoration solutions.
+                        In addition, we propose a method for diversity-guided image generation using diffusion models. 
+
+
+                    </p>
+                </div>
+                <img src="assets/meaningfulydiverse.png" class="card-img-bottom" alt="">
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Teaching Section -->
+    <div id="teaching" class="bg-light section anchor">
+        <div class="subtlecircle sectiondivider faicon">
+            <span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-pencil fa-stack-1x p-teaching"></i>
+            </span>
+        </div>
+        <h5 class="scetion-title text-center p-teaching poppins-medium">Teaching</h5>
+    
+        <div class="container-md">
+            <!-- add 4 cards in a 2x2 layout for the different courses-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-2 shadow">
+                        <!-- add image on the left -->
+                        <img class="card-img-top" style="max-height: 200px;" src="assets/deeplearninglab.png" alt="Deep Learning lab">
+                        <div class="card-body">
+                            <h5 class="card-title open-sans-300">
+                            <a class="text-black" href="https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=045107" target="_blank">
+                                Deep Learning Lab</a></h5>
+                            <h6 class="card-subtitle text-muted mb-2">Spring 2023, Winter 2023-24</h6>
+                            <!-- <p class="card-text">Teaching alongside 
+                                <a class="text-black" href="https://il.linkedin.com/in/rotem-mulayoff" target="_blank">Rotem Mulayoff</a> and
+                                <a class="text-black" href="https://il.linkedin.com/in/chen-zeno-471b28200" target="_blank">Chen Zeno</a>.
+                            </p> -->
+                            <p class="card-text">
+                                The lab aims to develop a comprehensive understanding of various fields in deep learning through hands-on experimentation.
+                                We explore the basics, CNNs, self-supervised learning, NLP, and diffusion models.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-2 shadow">
+                        <!-- add image on the left -->
+                        <img class="card-img-top" style="max-height: 200px;" src="assets/imageprocessinglab.png" alt="Image Processing lab">
+                        <div class="card-body">
+                            <h5 class="card-title open-sans-300">
+                            <a class="text-black" href="https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=045108" target="_blank">
+                                Image Processing Lab</a></h5>
+                            <h6 class="card-subtitle text-muted mb-2">Winter 2023-24</h6>
+                            <!-- <p class="card-text">Teaching alongside 
+                                <a class="text-black" href="https://www.linkedin.com/in/matan-kleiner/" target="_blank">Matan Kleiner</a> and
+                                <a class="text-black" href="https://www.linkedin.com/in/sagi-monin" target="_blank">Sagi Monin</a>.
+                            </p> -->
+                            <p class="card-text">
+                                The lab is focused on classical image processing, and provides practical hands-on experience covering a range of concecpts, such as compression, image registration, and total variation techniques.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-2 shadow">
+                        <!-- add image on the left -->
+                        <img class="card-img-top" style="max-height: 200px;" src="assets/compvis.gif" alt="Computer Vision Course GIF">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col">
+                                    <h5 class="card-title open-sans-300">
+                                    <a class="text-black" href="https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=46746" target="_blank">Algorithms and Applications in Computer Vision</a></h5>
+                                </div>
+                                <div class="col-auto">
+                                    <a href="https://github.com/HilaManor/ee046746-computer-vision"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <h6 class="card-subtitle text-muted mb-2">Winter 2022-23, Spring 2023, Winter 2023-24</h6>
+                            <p class="card-text">Head TA. Taught in English alongside 
+                                <a class="text-black" href="https://eliasnehme.github.io/" target="_blank">Elias Nehme</a>,
+                                <a class="text-black" href="https://il.linkedin.com/in/moshekimhi" target="_blank">Moshe Kimhi</a>,
+                                <a class="text-black" href="https://webee.technion.ac.il/people/anat.levin/" target="_blank">Prof. Anat Levin</a>, and
+                                <a class="text-black" href="https://lihi.net.technion.ac.il/" target="_blank">Prof. Lihi Zelnik-Manor</a>.
+                            </p>
+                            <p class="card-text">
+                                The course focuses on fundamental problems in computer vision describing practical solutions including state-of-the-art deep learning approaches.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3 shadow">
+                        <!-- add image on the left -->
+                        <img class="card-img-top" style="max-height: 200px;" src="assets/hsdsllab.jpg" alt="HSDSL lab">
+                        <div class="card-body">
+                            <h5 class="card-title open-sans-300">
+                            <a class="text-black" href="https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=045104" target="_blank">
+                                High-Speed DSL Lab</a></h5>
+                            <h6 class="card-subtitle text-muted mb-2">Winter 2022-23, Spring 2023, Winter 2023-24</h6>
+                            <!-- <p class="card-text">Teaching alongside 
+                                <a class="text-black" href="https://www.liorarbel.com/" target="_blank">Lior Arbel</a> and
+                                <a class="text-black" href="https://il.linkedin.com/in/yoav-hazan-ba974a218" target="_blank">Yoav Hazan</a>.
+                            </p> -->
+                            <p class="card-text">
+                                In the lab we explore signal integrity on transmittion lines in PCBs, by investigating reflections of signals and jitter, both in simulation and on physical boards.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="text-center text-bg-dark bg-dark">
+      <div class="container-xl">
+	  
+		<a class="text-bg-dark" href="https://www.google.com/search?q=Hila+hebrew+name">Why Halo <img src="favicon-16x16.png"/>?</a>
+        <!-- If you use my design, please don't change the references and acknowledgememnts below. -->
+        <br>
+            Design by <a class="text-white" href="https://hilamanor.github.io/">Hila Manor</a>, 2024
+			&nbsp;|&nbsp;
+			Icons from <a class="link-secondary" target="_blank" href="https://icons8.com">Icons8</a>, 
+            <a class="link-secondary" href="http://fontawesome.io">Font Awesome</a> & <a class="link-secondary" href="https://jpswalsh.github.io/academicons">Academicons</a>
+			&nbsp;|&nbsp;
+			Parts of this webpage were based on Tim O’Brien's <a class="link-secondary" href="http://t413.com/">t413.com</a> 
+            —
+            <a class="link-secondary" href="https://github.com/t413/SinglePaged">SinglePaged theme</a>.
+		
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
