@@ -26,23 +26,23 @@ nav ul {
   margin-right: auto;
 }
 
-nav ul li.nav-item.p-home a:hover, nav ul li.nav-item.p-home a.active { 
+nav ul li.nav-item.p-home a:hover, nav ul li.nav-item.p-home a.active {
     color: #ffc107 !important;
     font-weight: 600;
 }
 
-nav ul li.nav-item.p-publications a:hover, nav ul li.nav-item.p-publications a.active { 
+nav ul li.nav-item.p-publications a:hover, nav ul li.nav-item.p-publications a.active {
     color: lightskyblue !important;
     font-weight: 600;
-} 
-nav ul li.nav-item.p-teaching a:hover , nav ul li.nav-item.p-teaching a.active{ 
+}
+nav ul li.nav-item.p-teaching a:hover , nav ul li.nav-item.p-teaching a.active{
     color: forestgreen !important;
     font-weight: 600;
-} 
+}
 
 .section {
   padding:40px 0;
-} 
+}
 
 .subtlecircle {
   text-align:center;
@@ -70,6 +70,10 @@ nav ul li.nav-item.p-teaching a:hover , nav ul li.nav-item.p-teaching a.active{
 }
 .sectiondivider .fa-circle { color: #fff; }
 
+.card-subtitle a {
+  font-weight: 500 !important;
+}
+
 .section-title {
   font-size:24px;
   font-weight:500;
@@ -92,4 +96,16 @@ nav ul li.nav-item.p-teaching a:hover , nav ul li.nav-item.p-teaching a.active{
 
 .anchor {
     scroll-margin-top: 98px;
+}
+
+.bg-lightblue {
+  background-color: rgb(243 248 255);
+}
+
+.bg-lightgrad {
+  background-image: linear-gradient(rgba(248, 249, 250, 1), white, white, white) !important;
+}
+
+.bg-lightlightgrad {
+  background-image: linear-gradient(rgba(248, 249, 250, 1), white, white, white, white, white) !important;
 }
