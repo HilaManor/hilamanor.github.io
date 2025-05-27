@@ -1,6 +1,6 @@
 # Hila Manor
 
-Hi, I'm Hila,  a PhD student at the [Electrical and Computer Engineering department](https://ece.technion.ac.il/) of the [Technion](https://www.technion.ac.il/en/home-2/),
+Hi, I'm Hila, a PhD candidate at the [Electrical and Computer Engineering department](https://ece.technion.ac.il/) of the [Technion](https://www.technion.ac.il/en/home-2/),
 under the supervission of [Prof. Tomer Mihcaeli](https://tomer.net.technion.ac.il/).
 
 My research interests lie in the field of deep learning, with a focus on generative models. I am particularly interested in exploring their applications, interpretability, and reliability.
